@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+venv/
+.env/
+.envrc
+*.env
+
+# VS Code
+.vscode/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Model artifacts
+*.h5
+*.pb
+*.tflite
+*.pkl
+*.joblib
+
+# Logs and debug
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
