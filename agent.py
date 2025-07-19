@@ -18,7 +18,7 @@ class Assistant(Agent):
 async def entrypoint(ctx: agents.JobContext):
     session = AgentSession(
         llm=google.beta.realtime.RealtimeModel(
-            voice="Charon"
+            voice="Aoede"
         )         
     )
 
